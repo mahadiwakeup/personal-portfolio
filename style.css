@@ -1,0 +1,119 @@
+body{
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 30px;
+    font-weight:bold;
+    color: rgb(199, 90, 108);
+}
+h2{
+    font-size: 25px;
+}
+h3{
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+}
+h4{
+    text-align: center;
+    font-weight: bold;
+}
+.half-side{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-side img{
+    width: 80%;
+}
+.top-order{
+    background-image: url(images/header-bg.png);
+}
+section{
+    height:450px;
+    padding-bottom: 150px;
+}
+.button{
+     text-decoration: none;
+     background-color:rgb(199, 90, 108);
+     padding: 5px 30px;
+     color: white;
+     border-radius: 5px;
+     font-weight: bold;
+}
+.bio{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.latest{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.last{
+
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+.list::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+.list{
+    display: flex;
+}
+
+.pera{
+    font-size: 15px;
+    text-align: center;
+}
+.pera-section{
+     
+    
+    margin-bottom: 50px !important;
+}
+.pera-title{
+    
+    margin-top: 0 !important;
+    margin-bottom: 0;
+}
+.pera{
+    font-size: 8px;
+    font-weight:bolder;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+.end-pera{
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    
+}
+.finishing{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 2%;
+    background-color: rgb(199, 90, 108);
+    border-radius: 5px;
+}
+.fp{
+    font-size: small;
+    font-weight: 300;
+    color: white;
+}
+
+.hp{
+    color: white;
+    font-weight: bolder;
+}
